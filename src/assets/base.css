@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Outlined');
+
+:root {
+  --c-white: #ffffff;
+
+  --c-black: #333333;
+  --c-black-soft: #4F4F4F;
+
+  --c-gray-1: #BDBDBD;
+  --c-gray-2: #F2F2F2;
+  --c-gray-3: #828282;
+  --c-red: #EB5757;
+
+  --ff-montserrat: 'Montserrat', sans-serif;
+  --ff-mulish: 'Mulish', sans-serif;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  font-family: var(--ff-montserrat);
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--c-black);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+strong {
+  font-weight: 700;
+}
+
+footer {
+  margin-top: 98px;
+  margin-bottom: 26px;
+  text-align: center;
+  color: var(--c-gray-3);
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    width: 100%;
+    padding: 0 12px;
+  }
+}
